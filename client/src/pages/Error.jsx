@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Link, useRouteError } from "react-router-dom";
 import img from "../assets/images/not-found.svg";
 import Wrapper from "../assets/wrappers/ErrorPage";
@@ -26,10 +25,4 @@ const Error = () => {
     </Wrapper>
   );
 };
-
-=======
-const Error = () => {
-  return <h1>ErrorPage</h1>;
-};
->>>>>>> 5ad785218d2d5fa0f61be6e433ec10a5e25170b9
 export default Error;

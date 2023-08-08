@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Logo, FormRow } from "../components";
 import Wrapper from "../assets/wrappers/RegisterAndLoginPage";
 
@@ -28,10 +27,4 @@ const Login = () => {
     </Wrapper>
   );
 };
-=======
-function Login() {
-  return <h1>LoginPage</h1>;
-}
-
->>>>>>> 5ad785218d2d5fa0f61be6e433ec10a5e25170b9
 export default Login;

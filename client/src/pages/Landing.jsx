@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import main from "../assets/images/main.svg";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.svg";
@@ -8,7 +7,7 @@ const Landing = () => {
   return (
     <StyledWrapper>
       <nav>
-        <Logo/>
+        <Logo />
       </nav>
       <div className="container page">
         {/* info */}
@@ -82,10 +81,5 @@ const StyledWrapper = styled.section`
     }
   }
 `;
-=======
-function Landing() {
-  return <h1>Landing</h1>;
-}
->>>>>>> 5ad785218d2d5fa0f61be6e433ec10a5e25170b9
 
 export default Landing;

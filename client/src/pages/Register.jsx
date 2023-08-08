@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { FormRow, Logo } from "../components";
 import Wrapper from "../assets/wrappers/RegisterAndLoginPage";
 import { Link } from "react-router-dom";
@@ -29,10 +28,4 @@ const Register = () => {
     </Wrapper>
   );
 };
-=======
-function Register() {
-  return <h1>Register</h1>;
-}
-
->>>>>>> 5ad785218d2d5fa0f61be6e433ec10a5e25170b9
 export default Register;
