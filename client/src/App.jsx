@@ -10,26 +10,15 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomeLayout />,
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <Landing />,
-      },
-      {
-        path: "register",
-        element: <Register />,
-      },
-      {
-        path: "login",
-        element: <Login />,
-      },
-      {
-        path: "dashboard",
-        element: <DashboardLayout />,
-      },
-    ],
+    element: <h1>home</h1>,
+  },
+  {
+    path: "/about",
+    element: (
+      <div>
+        <h2>about page</h2>
+      </div>
+    ),
   },
 ]);
 
