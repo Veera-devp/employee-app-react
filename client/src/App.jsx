@@ -13,6 +13,8 @@ import {
   Admin,
 } from "./pages";
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "dashboard",
-        element: <DashboardLayout />,
+        element: <DashboardLayout isDarkThemeEnabled={isDarkThemeEnabled} />,
         children: [
           {
             index: true,
